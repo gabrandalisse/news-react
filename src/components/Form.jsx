@@ -3,7 +3,7 @@ import useSelect from "../hooks/useSelect";
 import styles from "./Form.module.css";
 import PropTypes from "prop-types";
 
-const Form = ({ updateCountry, updateCategory }) => {
+const Form = ({ updateCategory }) => {
 
     const OPTIONS = [
         { value: "general", label: "General" },

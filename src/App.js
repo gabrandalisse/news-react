@@ -11,7 +11,6 @@ function App() {
   useEffect(() => {
     const consultAPI = async () => {
 
-      //! DELETE THE API KEY WHEN PUSH TO GITHUB
       const key = "##########";
       const url = `https://newsapi.org/v2/top-headlines?country=ar&category=${category}&apiKey=${key}`;
 
